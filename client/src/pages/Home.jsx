@@ -1,3 +1,4 @@
+import Banner from "../components/Banner"
 import FeatureSection from "../components/FeatureSection"
 import Hero from "../components/Hero"
 
@@ -6,6 +7,7 @@ const Home = () => {
     <>
     <Hero/>
     <FeatureSection />
+    <Banner />
     </>
   )
 }
