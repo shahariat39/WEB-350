@@ -5,7 +5,7 @@ import Title from "../../components/owner/Title"
 
 const Dashboard = () => {
 
-  const currency = import.meta.env.NITE_CURRENCY
+  const currency = import.meta.env.VITE_CURRENCY
 
   const [data, setData] = useState({
     totalCars: 0,
